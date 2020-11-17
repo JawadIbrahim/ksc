@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kscwebfile/style.css">
+    <link rel="stylesheet" href="kscwebfile/imgSlider/is.css">
+    <link rel="stylesheet" href="resfile/iphone678.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: gray;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  padding: 5px;
+  margin: 0px 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
+.topnav .icon {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+@media screen and (max-width: 414px) {
+  .topnav a{display: none;}
+  .topnav a.icon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .topnav.responsive .icon {
+    position: static;
+    right: 10px;
+    top: 15px;
+  }
+  .topnav.responsive {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    z-index: 100;
+  }
+  .topnav.responsive a {
+    display: block;
+    width: 100%;
+    margin: 0px 0px;
+  }
+  .topnav.responsive a:hover {
+  background-color: white;
+  color: black;
+  }
+}
+</style>
+    <title>Knowledge School &amp; College</title>
+</head>
+<body>
+           <!--navigation-->
+    <div class="navbar">
+    <div class="intext">
+      <img class="logor" src="kscsrc/ksclogo.png" alt="Logo">
+      <div class="logo">
+       Knowledge School &amp; College
+    </div>
+    <div class="menu">      
+    <div class="topnav" id="myTopnav">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <a target="_blank" href="index.html" class="active">Home</a>
+  <a target="_blank" href="kscwebhtml/aboutus.html">About Us</a>
+  <a href="#ts">Teachers and Students</a>
+  <a href="#newsandac">News and Events</a>
+  <a href="#cont">Contact</a>
+  <a target="_blank" href="https://jawadibrahim.github.io/firstweb/me.html">Developer Info</a>
+</div>
+    </div>
+    </div>
+    </div>
+<!--    imgSlider -->
+ <!-- Slideshow container -->
+ <div class="fullpage" id="home">
+ <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 2</div>
+    <img src="kscsrc/kscp1.png" style="height: 300px; width:100%">
+    <div class="text">Class Party</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 2</div>
+    <img src="kscsrc/kscp2.png" style="height: 300px; width:100%">
+    <div class="text">Prize Giving ceremony</div>
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div> 
+<!--
+     <video height="400px" width="900px" controls autoplay0f>
+         <source src="kscsrc/ksc.mp4" type="video/mp4">
+     </video>
+-->
+            <!-- about school -->
+        <div class="leftp">
+        <div class="container1">
+            <h1 class="conhe">About Knowledge School &amp; College</h1>
+            <hr>
+            <p>The name of our school is Knowledge School &amp; College. It is situated in Hathazari founded by Md Osman, a Bangladeshi in 1996. It is a big and renowned school in the country. <br><br>
+Our school is housed in a nice two-storeyed building. There are thirty classrooms in our school. They are neat and clean and well-ventilated. There is also the Headmaster’s room, the teachers’ room, the common room, the science laboratory and a big auditorium in our school. <br><br>
+
+Each class is held in a separate room. Every classroom is well-furnished with desks for the students and a chair and a table for the teacher. There are also blackboards and maps in the classrooms. <br><br>
+
+Our school sits in two shifts namely, morning shift and day shift. There are about two thousand students in our school. They are well behaved and obedient. There are thirty five teachers in our school. They are qualified. They teach us with great care and affection. They are truly our guide and friend. They take special care for the weak students. Our Headmaster is an M.A. B.Ed. He is a nice man. He is very strict but friendly. He has a loving corner in his heart for the students. <a target="_blank" href="kscwebhtml/aboutus.html">Read More</a> 
+        </div>
+        <div class="container1 teandst" id="ts">
+            <h1 class="conhe">Teachers and Students</h1>
+            <hr>
+            <p>In Knowledge School &amp; College about two thousand students in our school. They are well behaved and obedient. There are thirty five teachers in our school. They are qualified. They teach us with great care and affection. They are truly our guide and friend. They take special care for the weak students</p>
+        </div>
+        <div class="container1 ulist">
+            <h1 class="conhe">Knowledge School and College Activity</h1>
+            <hr>
+            <ul class="aclist">
+                <li>present Spech</li>
+                <li>Spoken English</li>
+                <li>Essay and Drawing compeition</li>
+                <li>Debate Competition</li>
+                <li>Handwriting Competition</li>
+                <li>Every year Educational Tour</li>
+            </ul>
+        </div>
+        <div class="container1 activity" id="newsandac">
+            <h1 class="conhe">News &amp; Events</h1>
+            <hr>
+            <div class="news">
+                <h4>Assignment</h4>
+                <p>Finish Assignment and submit on Tuesday, 18 November, 2020.</p><small>7 days ago</small>
+            </div>
+            <div class="news">
+                <h4>Start online activity</h4>
+                <p>we start online activity. join in Facebook and online group.</p><small>8 days ago</small>
+            </div>
+            <div class="news">
+                <h4>close school</h4>
+                <p>School holiday were extended for more days due to corona epidemic.</p><small>8 months ago</small>
+            </div>
+            <div class="news">
+                <h4>school close for Covid-19</h4>
+                <p>School has been closed for 20 days due to covid-19.</p><small>8 months ago</small>
+            </div>
+        </div>
+        </div>
+        <div class="rightp">
+        <div class="container2">
+            <h2 class="conhe">Message of Principal</h2>
+            <hr>
+            <img class="mpo" src="kscsrc/prinp.png" alt="photo">
+            <p class="nameinfo">Md Osman<br><small>Principal of Knowledge and College</small></p><hr>
+            <p>Assalamu-alaikum. Myself, Md Osman is delighted to present before you the web site of our newly established institution. Knowledge School &amp; College is now ready to set it’s journey towards a challenge - that is shaping the future of the country by making our new generation truly educated. <a target="_blank" href="kscwebhtml/messp.html">Read More</a> </p>
+        </div>
+        <div class="container2">
+            <h2 class="conhe">Message of Chairman</h2>
+            <hr>
+            <img class="mpo" src="kscsrc/Chairman.png" alt="photo"><p class="nameinfo">Mr. S. M. Rashedul Alam
+            <br><small>Upazila chairman</small></p><hr>
+            <p>Assalamu-alaikum to everybody. Welcome to the website of Knowledge School &amp; College. I feel greatly honoured that I’m going to write a few words as Chairman of the Governing Body of this institution <a target="_blank" href="kscwebhtml/messch.html">Read More</a> </p>
+        </div>
+        <div class="container2 kscvid">
+           <h2 class="conhe">Video of School</h2>
+            <hr>
+            <video controls loop>
+                <source src="kscsrc/ksc.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="container2">
+            <h2 class="conhe">Facebook Page</h2>
+            <hr>
+            <a target="_blank" href="https://www.facebook.com/Knowledge-School-and-College-108624277512737"><img src="kscsrc/kscfb.png" width="400px" alt="Photo">click img to view in Facbook</a>
+        </div>
+        </div>
+        
+    </div>
+<footer id="cont">
+   <div class="kscf">
+   <img src="kscsrc/ksclogo.png" width="50px" alt="">
+    <h1>Knowledge School &amp; College</h1>
+    <h3>Our Address</h3>
+    <p>Kachari Road,<br>Hathazari,<br>chattogram <br>Number:+8801819-620432<br><br></p>
+    </div>
+    <div class="devf">
+       <a target="_blank" href="https://jawadibrahim.github.io/firstweb/me.html">
+       <h3>This website is developed by</h3>
+        <img src="kscsrc/devj.jpg" width="50px" alt="">
+        <h1>Jawad Ibrahm Shopnil</h1>
+        <p>class: 8(eight) <br>
+        Roll: 02 <br>School: Knowledge School and College</p>
+        <a target="_blank" href="https://jawadibrahim.github.io/firstweb/me.html">read more</a></a>
+    </div>
+</footer>
+<script src="kscwebfile/imgSlider/isjs.js"></script>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+} 
+</script>
+</body>
+</html>
