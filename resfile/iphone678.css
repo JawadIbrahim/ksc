@@ -107,7 +107,7 @@
     }
     .fullpage{
         width: 100%;
-        height: 2500px;
+        height: 2600px;
         margin: 5px auto;
         background-color: #F4FDDE;
         box-shadow: 2px 2px 10px black;
@@ -156,7 +156,7 @@
     }
     footer{
         width: 100%;
-        height: 750px;
+        height: 580px;
         background-color: gray;
         position: relative;
         padding: 20px;
