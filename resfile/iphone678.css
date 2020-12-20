@@ -63,7 +63,7 @@
         padding: 2px;
         margin: 2px;
         height: 350px;
-        width: 410px;
+        width: 360px;
         background-color: #F4FDDE;
 /*        float: left;*/
     }
@@ -76,7 +76,7 @@
         padding: 5px;
         margin: 6px;
         height: 250px;
-        width: 410px;
+        width: 350px;
         background-color: #FDFCD3;
         float: left;
     }
@@ -131,7 +131,7 @@
         height: 160px;
     }
     .ulist{
-        width: 410px;
+        width: 360px;
         height: 220px;
         position: relative;
         float: left;
@@ -141,7 +141,7 @@
         left: 35px;
     }
     .activity{
-        width: 410px;
+        width: 360px;
         height: 370px;
 /*        float: left;*/
     }
